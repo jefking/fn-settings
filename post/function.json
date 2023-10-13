@@ -15,10 +15,10 @@
             "name": "res"
         },
         {
-            "name": "send",
-            "type": "serviceBus",
-            "queueName": "users",
-            "connection": "ServiceBus",
+            "name": "blobStorage",
+            "type": "blob",
+            "path": "setttings/{Id}.json",
+            "connection": "MyStorageConnectionAppSetting",
             "direction": "out"
         }
     ],
